@@ -1,5 +1,4 @@
-{ Easy to hard Which I find for myself }
-
----
+# DSA
 
 fizz-buzz
+prime Number
