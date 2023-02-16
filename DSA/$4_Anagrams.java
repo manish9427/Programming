@@ -7,7 +7,9 @@ public class $4_Anagrams
         Arrays.sort(array1);
         Arrays.sort(array2);
         str1=new String(array1);
+        // System.out.println("new1"+str1);
         str2=new String(array2);
+        // System.out.println("new2"+str2);
         if(str1.length()!=str2.length()){
             return false;
         }else{
