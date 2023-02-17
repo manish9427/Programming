@@ -14,3 +14,4 @@
 02-prime Number
 03-palindrome Number
 04-Anagram Number
+05-Power of Two
