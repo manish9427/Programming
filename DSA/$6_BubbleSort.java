@@ -24,7 +24,12 @@ public class $6_BubbleSort {
     }
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
-        System.out.print("Enter the size of array: ");
+        System.out.print("Enter number of test cases: ");
+        int t=sc.nextInt();
+
+
+        while(t>0){
+            System.out.print("\nEnter the size of array: ");
         int n=sc.nextInt();
         System.out.println("Enter the array elements:");
 
@@ -40,5 +45,8 @@ public class $6_BubbleSort {
         //printing the array
         System.out.println("Output-");
         printArray(arr);
+            t--;
+        }
+        
     }
 }
