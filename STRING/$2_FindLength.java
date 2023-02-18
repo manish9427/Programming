@@ -10,7 +10,7 @@ public class $2_FindLength {
             // System.out.println("output: "+str.length());
             int len=0;
             char [] ch=str.toCharArray();
-            for (char st:ch){
+            for (char a:ch){
                 len++;
             }
             System.out.println("output: "+len);
