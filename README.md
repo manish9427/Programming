@@ -7,6 +7,8 @@
 # STRING
 
 1-26
+01-print the string
+02-print the lenght of string
 
 # DSA
 
@@ -15,3 +17,5 @@
 03-palindrome Number
 04-Anagram Number
 05-Power of Two
+06-Bubble Sort
+07-Quick Sort
