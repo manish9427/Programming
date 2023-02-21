@@ -19,3 +19,5 @@
 05-Power of Two
 06-Bubble Sort
 07-Quick Sort
+08-Balanced Parenthesis
+09-find Duplicate in array
