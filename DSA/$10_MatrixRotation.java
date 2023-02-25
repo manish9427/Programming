@@ -12,7 +12,10 @@ import java.util.*;
 public class $10_MatrixRotation{
     public static void rotateMatrix(int arr[][],int n,int m){
         for(int i=0;i<n;i++){
-            for(int j=0; j<m;j++){
+            for(int j=0; j<m-i-1;j++){
+                int temp=arr[i][j];
+                arr[i][j]=arr[j][i];
+                arr[j][i]=temp;
                 System.out.print(arr[i][j]+" ");
             }System.out.println();
         }

@@ -21,3 +21,4 @@
 07-Quick Sort
 08-Balanced Parenthesis
 09-find Duplicate in array
+10-matrix rotaion
