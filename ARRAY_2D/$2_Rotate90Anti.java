@@ -1,17 +1,7 @@
-//Rotate Matrix by 90 degree
-/*Input
-  1 2 3
-  4 5 6 
-  7 8 9 */
+package ARRAY_2D;
 
-/*Output
-  3 6 9
-  2 5 8
-  1 4 7 */
-//   ----------------------------------------------------------------------------
 import java.util.*;
-public class $10_MatrixRotation{
-
+public class $2_Rotate90Anti {
 
     public static void  rotateMatrix(int[][] matrix){
 	int n = matrix.length;
@@ -60,4 +50,3 @@ public class $10_MatrixRotation{
         }
     }
 }
-
