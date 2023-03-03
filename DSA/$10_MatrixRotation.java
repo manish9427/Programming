@@ -1,4 +1,4 @@
-//Rotate Matrix by 90 degree
+//Rotate Matrix by 90 degree Anticlockwise
 /*Input
   1 2 3
   4 5 6 
