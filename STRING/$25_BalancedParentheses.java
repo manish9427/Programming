@@ -2,7 +2,7 @@
 package STRING;
 
 import java.util.*;
-public class $25_BalancedParenthesis {
+public class $25_BalancedParentheses {
 
     public static boolean isBalanced(String str) {
         int count = 0;
@@ -26,7 +26,7 @@ public class $25_BalancedParenthesis {
         String str=sc.nextLine();
 
         if(isBalanced(str)){
-            System.out.println("Balanced Parenthesis");
+            System.out.println("Balanced Parentheses");
         }else{
             System.out.println("Unbalanced Balanced");
         }
