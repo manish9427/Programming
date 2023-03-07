@@ -7,7 +7,6 @@ public class $2_FindLength {
         System.out.print("Enter the string: ");
 
         String str=sc.nextLine();
-            // System.out.println("output: "+str.length());
             int len=0;
             char [] ch=str.toCharArray();
             for (char a:ch){
