@@ -23,6 +23,8 @@ fibonacci \* -->Recussion
 1-26
 01-print the string \*
 02-print the lenght of string \*
+06-Reverse String \* other method left-->
+07-delete vowels
 25-Balanced Parentheses \*
 
 - palindrome
