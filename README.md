@@ -36,6 +36,8 @@ fibonacci \* -->Recussion
 
 # HashMap
 
+- occurence of character in String
+
 # DSA
 
 01-fizz-buzz \*
@@ -59,3 +61,9 @@ fibonacci \* -->Recussion
 2-reduce string \*
 3-balanced parenthesis
 4-Next Greater Element
+
+##### LeetCode Question Links
+
+- Remove unwanted chars - https://leetcode.com/playground/J6a6FeDt
+- Find Path - https://leetcode.com/playground/LhwrauHo
+- Add one two linkedList - https://leetcode.com/playground/ByyZcRwY

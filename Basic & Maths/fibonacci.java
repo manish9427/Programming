@@ -22,6 +22,7 @@ public class fibonacci{
         second=third;
         third=first+second;
         System.out.println(third);
+        n--;
 
     }
     }
