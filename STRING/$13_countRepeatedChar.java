@@ -36,7 +36,7 @@ public class $13_countRepeatedChar {
                 rep++;
             }
         }
-        System.out.println(rep);
+        System.out.println("repeated character in the string "+rep);
         
     }
 }
