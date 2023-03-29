@@ -1,14 +1,18 @@
 package LinkedList;
 import java.util.*;
 
+//  Node class
 class Node{
-    int val;
+    int data;
     Node next;
-    Node(int val){
-        this.val=val;
+    // node class constructor
+    Node(int data){
+        this.data=data;
         this.next=null;
     }
 }
+
+
 public class AddOne{
     public static void main(String args[]){
         Scanner sc=new Scanner(System.in);
@@ -27,7 +31,7 @@ public class AddOne{
         //print the resulting linked list
         System.out.println("Result:- ");
         while(head != null){
-            System.out.print(head.val);
+            System.out.print(head.data);
             head=head.next;
             if(head!=null){
                 System.out.print(" -> ");
@@ -47,6 +51,7 @@ public class AddOne{
         }
         return prev;
     }
+    
     public static Node addOne(Node head){
         Node new_head=reverse(head);
         int carry=0;
@@ -56,12 +61,12 @@ public class AddOne{
         while(curr != null){
             int sum=0;
             if(prev == null){
-                sum=curr.val+1;
+                sum=curr.data+1;
             }else{
-                sum=curr.val+carry;
+                sum=curr.data+carry;
             }
             carry=sum/10;
-            curr.val=sum%10;
+            curr.data=sum%10;
             prev=curr;
             curr=curr.next;
         }
