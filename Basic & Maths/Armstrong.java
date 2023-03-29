@@ -12,23 +12,14 @@ public class Armstrong{
 
     }
     public static boolean isArmstrong(int number) {
-        int n = 0;
+        int sum = 0;
         int temp = number;
         while (temp > 0) {
-            n++;
-            temp /= 10;
-        }
-        int sum = 0;
-        temp = number;
-        while (temp > 0) {
             int digit = temp % 10;
-            int power = 1;
-            for (int i = 0; i < n; i++) {
-                power *= digit;
-            }
-            sum += power;
+            sum += digit * digit * digit;
             temp /= 10;
         }
         return sum == number;
     }
+    
 }
