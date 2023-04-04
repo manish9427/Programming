@@ -1,4 +1,3 @@
-package Playground;
 /**
  * Given an array [“123f”, “1dsa12”, “1212ds”, “65fd”, “sadfa”, “asdasd”]
  * Each item can contain 0-9, a-z, A-Z where a-z, A-Z characters are unwanted
