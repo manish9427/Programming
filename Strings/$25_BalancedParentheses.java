@@ -1,5 +1,5 @@
 // {}()[]if these are equall in number means balanced parenthesis
-package STRING;
+package Strings;
 
 import java.util.*;
 public class $25_BalancedParentheses {

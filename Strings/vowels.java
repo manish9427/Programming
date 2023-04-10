@@ -1,4 +1,4 @@
-package Programs.String;
+package Strings;
 
 import java.util.*;
 public class vowels {

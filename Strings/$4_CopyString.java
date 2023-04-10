@@ -1,4 +1,4 @@
-package STRING;
+package Strings;
 
 // import java.util.*;
 // public class $4_CopyString {

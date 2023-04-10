@@ -5,7 +5,7 @@
 
 Note: The function should handle both positive and negative integers in the array.
  */
-package Programs.Arrays;
+
 
 public class MaxDiff {
     public static void main(String args[]){

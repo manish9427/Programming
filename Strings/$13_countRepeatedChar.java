@@ -4,7 +4,7 @@ Count Number of Repeated Characters in a String
  output --> total repeated characters are 3 => hint-->{c,e,r}
 */
 
-package STRING;
+package Strings;
 
 import java.util.*;
 public class $13_countRepeatedChar {

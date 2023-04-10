@@ -1,20 +1,7 @@
-package ARRAY_2D;
+package Arrays_2D;
 
 import java.util.*;
-public class $2_Rotate90Anti {
-
-    public static void  rotateMatrix(int[][] matrix){
-	int n = matrix.length;
-    for (int i=0;i<n/2;i++){
-        for (int j=i;j<n-i-1;j++){
-            int temp = matrix[i][j];
-            matrix[i][j] = matrix[j][n-i-1];
-            matrix[j][n-i-1] = matrix[n-i-1][n-j-1];
-            matrix[n-i-1][n-j-1] = matrix[n-j-1][i];
-            matrix[n-j-1][i] = temp;
-        }
-    }
-    }
+public class $1_Print2DArray {
     public static void printArray(int arr[][]){
         for(int i=0;i<arr.length;i++){
             for(int j=0;j<arr[i].length;j++){
@@ -31,22 +18,15 @@ public class $2_Rotate90Anti {
             int n = sc.nextInt();
             System.out.println("Enter the number of col: ");
             int m = sc.nextInt();
-            System.out.println("Enter the Elements of matrix: ");
+            System.out.println("Enter the Elements of row: ");
             int arr[][]=new int[n][m];
             for(int i=0;i<n;i++){
                 for(int j=0;j<m;j++){
-
                     arr[i][j]=sc.nextInt();
                 }
             }
             System.out.println("Output: ");
-            System.out.println("original matrix: ");
-            
             printArray(arr);
-            rotateMatrix(arr);
-            System.out.println("Rotated matrix: ");
-            printArray(arr);
-
         }
     }
 }

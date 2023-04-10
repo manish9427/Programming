@@ -13,7 +13,7 @@ Continue this for each character untill all characters of string get inserted.
 
 
 
-package STRING;
+package Strings;
 
 // import java.util.*;
 // public class $11_EachCharOccurence {
