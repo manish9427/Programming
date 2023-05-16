@@ -29,4 +29,24 @@ public class ValidParentheses {
         }
         return st.isEmpty();
     }
+
+    // TC=>O(n)
+    // SC=>O(n)
+
+
+    // public static boolean isValid(String s) {
+    //     while (s.contains("()") || s.contains("{}") || s.contains("[]")) {
+    //         s = s.replace("()", "").replace("{}", "").replace("[]", "");
+    //     }
+    //     return s.isEmpty();
+    // }
+
+    // TC=>O(n^2)
+    // SC=>O(n)
+
 }
+
+
+
+
+

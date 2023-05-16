@@ -1,12 +1,12 @@
 # Basic Maths
 
-fizz buzz \*
-even odd \*
+fizz buzz
+even odd
 prime
 angstrom
 happy numbers
-factorial -->Recussion
-fibonacci \* -->Recussion
+factorial
+fibonacci
 
 # PATTERN
 
@@ -21,11 +21,11 @@ fibonacci \* -->Recussion
 # STRING
 
 1-26
-01-print the string \*
-02-print the lenght of string \*
-06-Reverse String \* other method left-->
+01-print the string
+02-print the lenght of string
+06-Reverse String
 07-delete vowels
-25-Balanced Parentheses \*
+25-Balanced Parentheses
 
 - palindrome
 - vowels and consonats
@@ -40,11 +40,11 @@ fibonacci \* -->Recussion
 
 # GITHUB
 
-01-fizz-buzz \*
+01-fizz-buzz
 02-prime Number
-03-palindrome Number _
+03-palindrome Number
 04-Anagram Number
-05-Power of Two _
+05-Power of Two
 06-Bubble Sort
 07-Quick Sort
 08-Balanced Parenthesis
@@ -57,8 +57,8 @@ fibonacci \* -->Recussion
 
 # Stack
 
-1-print stack \*
-2-reduce string \*
+1-print stack
+2-reduce string
 3-balanced parenthesis
 4-Next Greater Element
 
