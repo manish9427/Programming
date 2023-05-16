@@ -5,7 +5,7 @@ Explanation: 121 reads as 121 from left to right and from right to left.
  */
 
 
-public class PalindromeNuber {
+public class PalindromeNumber {
     public static void main(String args[]){
         int x=121;
 
