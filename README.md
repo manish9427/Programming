@@ -57,6 +57,8 @@
 
 # INTERVIEW QUESTIONS
 
+- find the quoitent and Remainder without using % and /
+
 # LeetCode MANISH
 
 # LeetCode Playground
