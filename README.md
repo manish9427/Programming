@@ -1,12 +1,12 @@
 # Basic Maths
 
-fizz buzz
-even odd
-prime
-angstrom
-happy numbers
-factorial
-fibonacci
+- fizz buzz
+- even odd
+- prime
+- angstrom
+- happy numbers
+- factorial
+- fibonacci
 
 # PATTERN
 
