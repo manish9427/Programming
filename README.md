@@ -12,20 +12,11 @@ fibonacci
 
 # ARRAY
 
-1-20
-
 # 2D Array
 
 - N Traversal in all directions
 
 # STRING
-
-1-26
-01-print the string
-02-print the lenght of string
-06-Reverse String
-07-delete vowels
-25-Balanced Parentheses
 
 - palindrome
 - vowels and consonats
@@ -37,6 +28,42 @@ fibonacci
 # HashMap
 
 - occurence of character in String
+
+# Two Pointers
+
+# Sliding Window
+
+# Stack
+
+1-print stack
+2-reduce string
+3-balanced parenthesis
+4-Next Greater Element
+
+## Target
+
+# CODECRAKERS ARRAY
+
+1-20
+
+# CODECRAKERS STRING
+
+1-26
+01-print the string
+02-print the lenght of string
+06-Reverse String
+07-delete vowels
+25-Balanced Parentheses
+
+# INTERVIEW QUESTIONS
+
+# LeetCode MANISH
+
+# LeetCode Playground
+
+- Remove unwanted chars - https://leetcode.com/playground/J6a6FeDt
+- Find Path - https://leetcode.com/playground/LhwrauHo
+- Add one two linkedList - https://leetcode.com/playground/ByyZcRwY
 
 # GITHUB
 
@@ -50,20 +77,3 @@ fibonacci
 08-Balanced Parenthesis
 09-find Duplicate in array
 10-matrix rotaion
-
-# Two Pointers
-
-# Sliding Window
-
-# Stack
-
-1-print stack
-2-reduce string
-3-balanced parenthesis
-4-Next Greater Element
-
-# LeetCode Playground
-
-- Remove unwanted chars - https://leetcode.com/playground/J6a6FeDt
-- Find Path - https://leetcode.com/playground/LhwrauHo
-- Add one two linkedList - https://leetcode.com/playground/ByyZcRwY
