@@ -8,37 +8,37 @@
 
 // === finding quotient and reminder without using % and / ====================================
 
-import java.util.Scanner;
-public class Remainder{
-    public static void main(String args[]){
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Input");
-        System.out.print("dividend = ");
-        int dividend=sc.nextInt();
-        System.out.print("divisor = ");
-        int divisor=sc.nextInt();
-        int remeinder = findRemainder(dividend,divisor);
-        int quotient= findQuoitent(dividend,divisor);
+// import java.util.Scanner;
+// public class Remainder{
+//     public static void main(String args[]){
+//         Scanner sc=new Scanner(System.in);
+//         System.out.println("Input");
+//         System.out.print("dividend = ");
+//         int dividend=sc.nextInt();
+//         System.out.print("divisor = ");
+//         int divisor=sc.nextInt();
+//         int remeinder = findRemainder(dividend,divisor);
+//         int quotient= findQuoitent(dividend,divisor);
 
-        System.out.println("Output");
-        System.out.println("Remeinder = "+remeinder);
-        System.out.println("Quotient = "+quotient);
+//         System.out.println("Output");
+//         System.out.println("Remeinder = "+remeinder);
+//         System.out.println("Quotient = "+quotient);
 
-    }
+//     }
 
-    public static int findRemainder(int dividend,int divisior){
-        while(dividend>=divisior){
-            dividend=dividend-divisior;
-        }return dividend;
-    }
-    public static int findQuoitent(int dividend,int divisior){
-        int quotient=0;
-        while(dividend>=divisior){
-            dividend=dividend-divisior;
-            quotient++;
-        }return quotient;
-    }
-}
+//     public static int findRemainder(int dividend,int divisior){
+//         while(dividend>=divisior){
+//             dividend=dividend-divisior;
+//         }return dividend;
+//     }
+//     public static int findQuoitent(int dividend,int divisior){
+//         int quotient=0;
+//         while(dividend>=divisior){
+//             dividend=dividend-divisior;
+//             quotient++;
+//         }return quotient;
+//     }
+// }
 
 
 
@@ -73,3 +73,20 @@ public class Remainder{
 //         System.out.println("quotient = "+quotient);
 //     }
 // }
+
+
+
+// --------------------------Revsion------------------------------
+class Remainder{
+    public static void main(String args[]){
+        int dividend=100;
+        int divisor=10;
+        int quoitent=0;
+        while(dividend>=divisor){
+            dividend=dividend-divisor;
+            quoitent++;
+        }
+        System.out.println(dividend);
+        System.out.println(quoitent);
+    }
+}
