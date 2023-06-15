@@ -20,3 +20,13 @@ function sumOfNumbers(array) {
 
 const result = sumOfNumbers(array);
 console.log(result); // Output: 1512
+
+/*
+
+Certainly! In regular expressions, the \D pattern is a shorthand character class that matches any non-digit character. It is the opposite of \d, which matches any digit character.
+
+The /g flag at the end of the regular expression is the global flag. It indicates that the pattern should be applied globally throughout the entire input string. Without the /g flag, the replace function would only replace the first occurrence of the pattern.
+
+So, when you use /\D/g as the pattern in the replace function, it will match all non-digit characters in the input string and replace them according to the specified replacement value.
+
+*/
