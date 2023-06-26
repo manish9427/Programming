@@ -6,19 +6,18 @@ public class fibonacci{
         System.out.println("fibonacci");
         int first = 0;
         int second = 1;
-        int n=5;
-        int third=0;
-        while(n<=2){
-            if(n==1){
-                System.out.println(first);
-            }
-            else{
-                System.out.println(second);
-            }
-        }
-        for(int i=3;i<=n;i++){
+        int n=4;
+        int third;
+
+
+
+            
+            System.out.print(first + " "+ second + " ");
+
+
+        for(int i=2;i<n;i++){
             third = first + second;
-            System.out.println(third);
+            System.out.print(third+" ");
             first=second;
             second =third;
         }
