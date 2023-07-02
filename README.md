@@ -63,6 +63,8 @@
 
 # LeetCode MANISH
 
+- Maximum Subarray
+
 # LeetCode Playground
 
 - Remove unwanted chars - https://leetcode.com/playground/J6a6FeDt
@@ -81,7 +83,3 @@
 08-Balanced Parenthesis
 09-find Duplicate in array
 10-matrix rotaion
-
-# Manish
-
-- Sliding Window => Maximum sub array
