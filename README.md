@@ -58,6 +58,8 @@
 # INTERVIEW QUESTIONS
 
 - find the quoitent and Remainder without using % and /
+- fibonacci series
+- two sum
 
 # LeetCode MANISH
 
@@ -79,3 +81,7 @@
 08-Balanced Parenthesis
 09-find Duplicate in array
 10-matrix rotaion
+
+# Manish
+
+- Sliding Window => Maximum sub array
