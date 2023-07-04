@@ -62,8 +62,10 @@
 
 # LeetCode MANISH
 
+- Fibonacci Number
 - Maximum Subarray
-- Search in Roated Sorted Array
+- Search in Roated Sorted Array -> Linear and Binary Search
+- Remove Duplicate Letters
 
 # LeetCode Playground
 
