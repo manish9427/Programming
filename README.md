@@ -66,6 +66,7 @@
 - Maximum Subarray
 - Search in Roated Sorted Array -> Linear and Binary Search
 - Remove Duplicate Letters -> HashMap + StringBuilder
+- Two Sum -> BruteForce, HashMap and Two Pointer
 
 # LeetCode Playground
 
