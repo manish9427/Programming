@@ -40,9 +40,9 @@
 3-balanced parenthesis
 4-Next Greater Element
 
-## Target
+# Target
 
-# CODECRAKERS ARRAY
+## CODECRAKERS ARRAY
 
 1-20
 01-Input
@@ -66,7 +66,7 @@
 19-Mul Matrices
 20-Input3D
 
-# CODECRAKERS STRING
+## CODECRAKERS STRING
 
 1-26
 01-print the string
@@ -75,14 +75,14 @@
 07-delete vowels
 25-Balanced Parentheses
 
-# INTERVIEW QUESTIONS
+## INTERVIEW QUESTIONS
 
 total => 2
 
 - find the quoitent and Remainder without using % and /
 - fibonacci series
 
-# LeetCode MANISH
+## LeetCode MANISH
 
 total => 17
 
@@ -92,7 +92,7 @@ total => 17
 - Remove Duplicate Letters -> HashMap + StringBuilder
 - Two Sum -> BruteForce, HashMap and Two Pointer
 
-# LeetCode Playground
+## LeetCode Playground
 
 total => 3
 
@@ -100,7 +100,7 @@ total => 3
 - Find Path - https://leetcode.com/playground/LhwrauHo
 - Add one two linkedList - https://leetcode.com/playground/ByyZcRwY
 
-# GITHUB
+## GITHUB
 
 total => 10
 
