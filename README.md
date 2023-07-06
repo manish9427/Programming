@@ -86,7 +86,7 @@ total => 2
 
 ## LeetCode MANISH
 
-total => 17
+total => 29
 
 - Fibonacci Number
 - Maximum Subarray
