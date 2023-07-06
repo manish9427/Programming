@@ -57,10 +57,14 @@
 
 # INTERVIEW QUESTIONS
 
+total => 2
+
 - find the quoitent and Remainder without using % and /
 - fibonacci series
 
 # LeetCode MANISH
+
+total => 17
 
 - Fibonacci Number
 - Maximum Subarray
@@ -70,11 +74,15 @@
 
 # LeetCode Playground
 
+total => 3
+
 - Remove unwanted chars - https://leetcode.com/playground/J6a6FeDt
 - Find Path - https://leetcode.com/playground/LhwrauHo
 - Add one two linkedList - https://leetcode.com/playground/ByyZcRwY
 
 # GITHUB
+
+total => 10
 
 01-fizz-buzz
 02-prime Number
