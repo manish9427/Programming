@@ -45,6 +45,26 @@
 # CODECRAKERS ARRAY
 
 1-20
+01-Input
+02-Linear Search
+03-Binary Search
+04-Largest Number
+05-Smallest Number
+06-Reverse Array
+07-InsertElement
+08-DeleteElement
+09-MergeTwoArrays
+10-Bubble Sort
+11-Selection Sort
+12-Insertion Sort
+13-Common Element
+14-Count Even Odd
+15-Input2D
+16-Add Matrices
+17-Sub Matrices
+18-Transpose Matrices
+19-Mul Matrices
+20-Input3D
 
 # CODECRAKERS STRING
 
