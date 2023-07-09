@@ -11,7 +11,8 @@ function Armstrong(num) {
   let sum = 0;
 
   for (let i = 0; i < len; i++) {
-    let digit = parseInt(numString[i]);
+    // let digit = parseInt(numString[i]);
+    let digit = parseInt(numString.charAt(i));
     sum += Math.pow(digit, len);
   }
   return sum === num;
