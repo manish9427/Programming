@@ -5,6 +5,15 @@ input/output
 */
 
 function Armstrong(num) {
-  num % 10; // 153%10=3
+  const numString = num.toString();
+  const len = numString.length;
+
+  let sum = 0;
+
+  for (let i = 0; i < len; i++) {
+    let digit = parseInt(numString[i]);
+    sum += Math.pow(digit, len);
+  }
+  return sum === num;
 }
-Armstrong(153);
+console.log(Armstrong(153));
