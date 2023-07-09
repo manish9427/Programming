@@ -17,3 +17,5 @@ function Armstrong(num) {
   return sum === num;
 }
 console.log(Armstrong(153));
+console.log(Armstrong(1634));
+console.log(Armstrong(1222));
