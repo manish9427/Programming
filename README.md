@@ -84,7 +84,8 @@ total => 2
 - find the quoitent and Remainder without using % and /
 - fibonacci series
 - prime Number
-- armstrong number
+- armstrong Number
+- Reverse Number
 
 ## LeetCode MANISH
 
