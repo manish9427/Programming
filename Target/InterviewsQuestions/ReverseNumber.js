@@ -4,6 +4,7 @@
  */
 
 function ReverseNumber(n) {
+  console.log("original " + n);
   let str = n.toString();
   let ans = "";
   for (let i = str.length - 1; i >= 0; i--) {
@@ -11,4 +12,4 @@ function ReverseNumber(n) {
   }
   return ans;
 }
-console.log(ReverseNumber(123));
+console.log("Reverse " + ReverseNumber(123));
