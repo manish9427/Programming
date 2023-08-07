@@ -8,14 +8,9 @@
         Scanner sc=new Scanner(System.in);
         System.out.print("Enter the number uou want to print the series ");
         int n=sc.nextInt();
-        for(int i=0;i<n;i++){
-            if(isPrime(n)){
-
-            }
-        }
-
+        isPrime(n);
     }
     public static boolean isPrime(int n){
-        if(n)
+        
     }
  }
