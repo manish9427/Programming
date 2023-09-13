@@ -1,12 +1,13 @@
 ## Basic Maths
 
-- fizz buzz
-- even odd
+- fizz buzz (easy)
+- even odd (easy)
 - prime
 - angstrom
-- happy numbers
 - factorial
-- fibonacci
+- fibonacci (Most Important)
+- reverse the number (Inportant)
+- happy numbers
 
 ## PATTERN
 
