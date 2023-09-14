@@ -1,6 +1,6 @@
     
-import java.util.*; //0 1 1 2 3 5 8 13 21 34 55
-public class fibonacci{
+import java.util.*;
+public class Fibonacci{
 
     public static void main(String args[]){
     Scanner sc=new Scanner(System.in);
