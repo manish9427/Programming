@@ -1,13 +1,22 @@
 class PrimeNum{
     public static void main(String args[]){
-        int num = 10;
+        int num = 17;
         if(Solution(num)){
-            System.out.println("Prime");
+            System.out.println(num+" Prime");
         }else{
-            System.out.println("Not Prime");
+            System.out.println(num+" is Non Prime");
         }
     }
     public static boolean Solution(int num){
-        return false;
+        if(num<=1){
+            return false;
+        }
+
+        for(int i=2;i*i<=num;i++){
+            if(num%i==0){
+                return false;
+            }
+        }
+        return true;
     }
 }
