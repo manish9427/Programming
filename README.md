@@ -2,16 +2,21 @@
 
 - fizz buzz (easy)
 - even odd (easy)
-- prime
-- angstrom
-- factorial
-- fibonacci (Most Important)
 - reverse the number (Inportant)
+- prime number
+- fibonacci (Most Important)
+- angstrom number
+- factorial
 - happy numbers
 
 ## PATTERN
 
 ## ARRAY
+
+- search num in roatated sorted array
+- remove duplicate from array
+- next greater element
+- maximum subarray
 
 ## 2D Array
 
