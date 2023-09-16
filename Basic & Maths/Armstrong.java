@@ -1,3 +1,10 @@
+/* Examples 153 , 370 , 403 , 9474
+ * n = count num of caracteres make that power with each character
+ * 
+ */
+
+
+
 import java.util.*;
 public class Armstrong{
     public static void main(String args[]){
@@ -13,14 +20,14 @@ public class Armstrong{
     }
     public static boolean isArmstrong(int n) {  
         int digits=0, last=0, sum=0;   
-        int temp=n;   
+        int temp=n;   //153
         while(temp>0){   
-            temp = temp/10;   
-            digits++;   
+            temp = temp/10;   //15
+            digits++;   //1
         }   
         temp = n;   
         while(temp>0)   {
-            last = temp % 10;   
+            last = temp % 10;   //3
             sum +=  (Math.pow(last, digits));   
             temp = temp/10;   
         }  
