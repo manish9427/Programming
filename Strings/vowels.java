@@ -1,4 +1,3 @@
-package Strings;
 
 import java.util.*;
 public class vowels {

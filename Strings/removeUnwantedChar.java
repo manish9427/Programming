@@ -3,7 +3,6 @@
  * Each item can contain 0-9, a-z, A-Z where a-z, A-Z characters are unwanted
  * Sum of all the numbers after removing all the unwanted characters 123+112+1212+65
 **/
-package Strings;
 
 public class removeUnwantedChar {
     public static void main(String args[]){
