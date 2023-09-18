@@ -8,8 +8,8 @@ public class PalindromeNumber {
             rev=rev*10+last;
             num=num/10;
         }
-        System.out.println(rev);
-        System.out.println(num);
+        // System.out.println(rev);
+        // System.out.println(num);
         if(rev==original){
             System.out.println("Palindrome");
         }else{
