@@ -1,10 +1,12 @@
 # Question Asked In Interview
 
-- fibonacci
+- fibonacci ----------------------------------------
 
-- revers the num
+- revers the num -----------------------------
 
-- seach element in rotated sorted array
+- seach element in rotated sorted array and return the index
+
+- remove duplicate from array and sort them using any inbuilt fuction
 
 - 3[ab]1[a]4[c]
   output=abababacccc
