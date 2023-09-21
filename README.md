@@ -1,3 +1,18 @@
+# Question Asked In Interview
+
+- fibonacci
+
+- revers the num
+
+- seach element in rotated sorted array
+
+- 3[ab]1[a]4[c]
+  output=abababacccc
+
+- arr={-1, 5, 6, -3 , 1 , 4 , 3 , 2,7,1}
+  find whose sum is 7
+  output=[4,3],[6,1]
+
 ## Basic Maths
 
 - fizz buzz (easy)
