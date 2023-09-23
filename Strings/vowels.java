@@ -1,3 +1,6 @@
+// count vowels and consonant in the given string
+// Manish -> 
+
 
 import java.util.*;
 public class vowels {
@@ -29,5 +32,3 @@ public class vowels {
         System.out.println("total space = "+x);
     }
 }
-
-// count vowels and consonant in the given string

@@ -41,8 +41,9 @@
 
 ## STRING
 
-- palindrome
 - vowels and consonats
+- Anagram
+- palindrome
 
 ## ArrayList
 
@@ -142,3 +143,21 @@ total => 10
 - Balanced Parenthesis
 - find Duplicate in array
 - matrix rotaion
+
+# Completd
+
+- FizzBuzz
+- EvenOdd
+- ReverseNum
+- PalindromeNum
+- PrimeNum
+- ArmstrongNum
+- Factorial
+- Fibonnaci
+
+- ReverseString
+- PalindromeString
+- Vowels
+- OccurenceOfLetter
+- OccurenceOfWord
+- Anagram
