@@ -146,18 +146,18 @@ total => 10
 
 # Completd
 
-- FizzBuzz
-- EvenOdd
+- FizzBuzz #
+- EvenOdd #
 - ReverseNum
 - PalindromeNum
 - PrimeNum
 - ArmstrongNum
-- Factorial
+- Factorial #
 - Fibonnaci
 
 - ReverseString
 - PalindromeString
 - Vowels
-- OccurenceOfLetter
-- OccurenceOfWord
+- OccurenceOfLetter #
+- OccurenceOfWord #
 - Anagram
