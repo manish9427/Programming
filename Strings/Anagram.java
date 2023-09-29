@@ -1,3 +1,12 @@
+/*
+ * Example :-
+ * str1=manish
+ * str2=mnisah
+ * output = anagram
+ */
+
+
+
 import java.util.*;
 public class Anagram{
     public static void main(String args[]){
