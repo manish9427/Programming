@@ -163,8 +163,38 @@ total => 10
 - Anagram
 
 /\*
-Arrays.sort(); // short array
+1- Arrays.sort(); // short array
 
-Arrays.equals(arr1,arr2); //
+2- Arrays.equals(arr1,arr2); // return boolean value
 
+3- str1.equals(str2); // retun boolean value
+
+4- str1.toCharArray(); //store in char[]
+
+5- str.charAt(i); // store in char
+
+6- str.length();
+
+7- arr.length;
+
+8- (str1.comapareTo(str2) > or < or == 0)>; // return integer value positive negative or 0(if equals)
+
+9- collections.sort(people); // sort object
+
+10- String.valueOf(str) //store in String
+
+11- concat // store in String
+
+12- replaceAll // store in String
+
+14- split // store in String
+
+15- Integer.valueOf(str) //store in int
+
+\*/
+
+/\*
+map
+
+containsKey
 \*/
