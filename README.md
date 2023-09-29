@@ -161,3 +161,10 @@ total => 10
 - OccurenceOfLetter #
 - OccurenceOfWord #
 - Anagram
+
+/\*
+Arrays.sort(); // short array
+
+Arrays.equals(arr1,arr2); //
+
+\*/
