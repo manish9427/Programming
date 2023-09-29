@@ -185,16 +185,18 @@ total => 10
 
 11- concat // store in String
 
-12- replaceAll // store in String
+12- str.replaceAll(regex:[^0-9],replacemt:"") // store in String
 
-14- split // store in String
+14- str.split(regex:" ") // store in String arr[]
 
 15- Integer.valueOf(str) //store in int
 
 \*/
 
 /\*
-map
+HashMap
 
 containsKey
+get
+put
 \*/
