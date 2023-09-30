@@ -38,6 +38,7 @@
 ## 2D Array
 
 - N Traversal in all directions
+- zigzag in all directions
 
 ## STRING
 
@@ -55,7 +56,11 @@
 
 ## Two Pointers
 
+- Next Greater Element
+
 ## Sliding Window
+
+- maximum subarray
 
 ## Stack
 
@@ -63,6 +68,12 @@
 - reduce string
 - balanced parenthesis
 - Next Greater Element
+
+## Queue
+
+## LinkedList
+
+- add one to linked list
 
 # Target
 
@@ -161,6 +172,8 @@ total => 10
 - OccurenceOfLetter #
 - OccurenceOfWord #
 - Anagram
+
+-
 
 /\*
 1- Arrays.sort(); // short array
