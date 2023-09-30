@@ -218,6 +218,8 @@ total => 10
 
 15- Integer.valueOf(str) //store in int
 
+16- Arrays.toString(arr) // human read able form String[] int[] double[] and type of array
+
 \*/
 
 /\*
