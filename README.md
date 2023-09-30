@@ -1,4 +1,4 @@
-# Question Asked In Interview
+# Interview
 
 - fibonacci ----------------------------------------
 
@@ -11,7 +11,7 @@
 - 3[ab]1[a]4[c]
   output=abababacccc
 
-- arr={-1, 5, 6, -3 , 1 , 4 , 3 , 2,7,1}
+- arr={-1, 5, 6, -3 , 1 , 4 , 3 , 2 , 7 , 1}
   find whose sum is 7
   output=[4,3],[6,1]
 
@@ -28,6 +28,26 @@
 
 ## PATTERN
 
+## STRING
+
+- Reverse String
+- vowels and consonats
+- palindrome
+- Anagram
+
+## Sorting Algorithm
+
+- Selection Sort
+- Bubble Sort
+- Merge Sort
+- Quick Sort
+- Insertion Sort
+
+## Searching Algorithm
+
+- Linear Search
+- Binary Search
+
 ## ARRAY
 
 - search num in roatated sorted array
@@ -39,12 +59,6 @@
 
 - N Traversal in all directions
 - zigzag in all directions
-
-## STRING
-
-- vowels and consonats
-- Anagram
-- palindrome
 
 ## ArrayList
 
