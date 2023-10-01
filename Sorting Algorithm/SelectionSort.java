@@ -22,3 +22,16 @@ public class SelectionSort {
         }
     }
 }
+
+/*
+ * dry run
+ *  5, 8, -7, -4, 10, 9
+ *  first iteration
+ *  i=0 min=0 j=1 8<5 no
+ *            j=2 -7<5 yes
+ * 
+ * min=2
+ * 
+ *  temp=-7 arr[2]=  
+ * 
+ */
