@@ -187,7 +187,9 @@ total => 10
 - OccurenceOfWord #
 - Anagram
 
--
+- Selction Sort
+- Bubble Sort
+- Quick Sort
 
 /\*
 1- Arrays.sort(); // short array
