@@ -191,6 +191,20 @@ total => 10
 - Bubble Sort
 - Quick Sort
 
+# Complexity
+
+## Time Complexity
+
+- O(n)
+- O(nlog(n))
+- O(n^2)
+
+## Space Complexity
+
+- O(1)
+- O(log(n))
+- O(n)
+
 /\*
 1- Arrays.sort(); // short array
 
