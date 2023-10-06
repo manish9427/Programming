@@ -1,5 +1,5 @@
 /*
- * recursively divides the array in 2 , sort, recombine
+ * recursively divides the array in 2 , sort, re-combine
  * T.C => O(nlog(n))
  * S.C => O(n)
  */
