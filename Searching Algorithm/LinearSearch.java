@@ -1,3 +1,9 @@
+/*
+ * T.C => O(n)
+ * S.C => O(1)
+ */
+
+
 // public class LinearSearch {
 //     public static void main(String[] args) {
 //         int[] arr= {1,2,3,4,5};
