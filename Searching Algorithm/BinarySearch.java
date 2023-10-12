@@ -11,7 +11,7 @@ public class BinarySearch {
         System.out.println();
         index=Arrays.binarySearch(arr,target);
         if(index!=-1){
-            System.out.println(index);
+            System.out.println(arr[index]+ " " +index);
         }
     }
 }
