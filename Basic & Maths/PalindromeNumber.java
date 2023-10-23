@@ -22,6 +22,7 @@
 public class PalindromeNumber{
     public static void main(String args[]){
         int n=121;
+        System.out.println(n);
         int value=n;
         int ans=0;
         while(n>0){
@@ -29,6 +30,7 @@ public class PalindromeNumber{
             ans=ans*10+rem;
             n=n/10;
         }
+        System.out.println(n);
         System.out.println(value);
         System.out.println(ans);
         if(ans==value){
