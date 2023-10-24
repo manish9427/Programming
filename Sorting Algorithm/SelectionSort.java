@@ -1,37 +1,54 @@
-// time complexity = > O(n^2) and space Complexity => O(1)
+// // time complexity = > O(n^2) and space Complexity => O(1)
+
+// import java.util.*;
+// public class SelectionSort {
+//     public static void main(String args[]){
+//         int arr[] = { 5, 8, -7, -4, 10, 9 };
+//         Solution(arr);
+//         System.out.println(Arrays.toString(arr));
+//     }
+
+//     public static void Solution(int arr[]){
+//         for(int i=0;i<arr.length-1;i++){
+//             int min = i; 
+//             for(int j=i+1;j<arr.length;j++){
+//                 if(arr[j]<arr[min]){
+//                     min=j;
+//                 }
+//             } 
+//             int temp=arr[min];
+//             arr[min]=arr[i];
+//             arr[i]=temp;
+//         }
+//     }
+// }
 
 import java.util.*;
-public class SelectionSort {
+public class SelectionSort{
     public static void main(String args[]){
-        int arr[] = { 5, 8, -7, -4, 10, 9 };
-        Solution(arr);
+        int[] arr={9,8,7,6,5,4,3,2,1};
+        for(int i:arr){
+            System.out.print(i+" ");
+        }
+        // System.out.print("\n");
+        System.out.println();
+        // Arrays.sort(arr);
+        SortArray(arr);
         System.out.println(Arrays.toString(arr));
     }
-
-    public static void Solution(int arr[]){
-        for(int i=0;i<arr.length-1;i++){
-            int min = i; 
-            for(int j=i+1;j<arr.length;j++){
+    public static void SortArray(int[] arr){
+        int n=arr.length;
+        for(int i=0;i<n-1;i++){
+            int min=i;
+            for(int j=i+1;j<n;j++){
                 if(arr[j]<arr[min]){
                     min=j;
                 }
-            } 
+            }
             int temp=arr[min];
             arr[min]=arr[i];
             arr[i]=temp;
+            System.out.println(Arrays.toString(arr));
         }
     }
 }
-
-/*
- * dry run
- *  5, 8, -7, -4, 10, 9
- *  first iteration
- *  i=0 min=0 j=1 8<5 no
- *            j=2 -7<5 yes
- * 
- * min=2
- * 
- *  temp=-7 arr[2]=  
- * 
- */
