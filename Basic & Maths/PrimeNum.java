@@ -7,13 +7,13 @@ class PrimeNum{
             System.out.println(num+" is Non Prime");
         }
     }
-    public static boolean Solution(int num){
+    public static boolean Solution(int num){  
         if(num<=1){
             return false;
         }
 
-        for(int i=2;i*i<=num;i++){
-            if(num%i==0){
+        for(int i=2;i*i<=num;i++){ 
+            if(num%i==0){     
                 return false;
             }
         }
