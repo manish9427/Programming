@@ -55,3 +55,19 @@ public class Program {
         System.out.println(fruits.isEmpty());
     }
 }
+
+
+/*
+This example covers the following ArrayList functions:
+
+add(): Adds elements to the ArrayList.
+size(): Gets the size (number of elements) of the ArrayList.
+get(): Accesses elements by index.
+contains(): Checks if an element exists in the ArrayList.
+set(): Modifies an element at a specific index.
+remove(): Removes an element by index or value.
+isEmpty(): Checks if the ArrayList is empty.
+clear(): Clears all elements from the ArrayList.
+
+By running this example, you can see how these functions work and manipulate the ArrayList.
+ */
