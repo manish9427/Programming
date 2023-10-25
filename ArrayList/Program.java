@@ -1,49 +1,57 @@
-package ArrayList;
-
 import java.util.ArrayList;
+
 public class Program {
-    public static void main(String args[]){
-        ArrayList<String> fruits=new ArrayList<>();
-        // add
+    public static void main(String args[]) {
+        ArrayList<String> fruits = new ArrayList<>();
+
+        // Adding elements to the ArrayList
         fruits.add("apple");
         fruits.add("Mango");
         fruits.add("papaya");
-        System.out.println(fruits.get(0));
+        System.out.println(fruits.get(0)); // Printing the first element
 
-        // size
-        int size=fruits.size();
+        // Getting the size of the ArrayList
+        int size = fruits.size();
         System.out.println(size);
 
-        // remove
+        // Removing the first element
         fruits.remove(0);
-        System.out.println(fruits.get(0));
+        System.out.println(fruits.get(0)); // Printing the new first element
 
-        // iterate
-        for(String i:fruits){
+        // Iterating through the ArrayList
+        for (String i : fruits) {
             System.out.println(i);
         }
 
-        //isEmpty
-        System.out.println(fruits.isEmpty());
         
-        //arraylist to array
-        String []  a= new String[fruits.size()];
-        a=fruits.toArray(a);
-        for(String i:a){
+        // Converting the ArrayList to an array
+        String[] a = new String[fruits.size()];
+        a = fruits.toArray(a);
+        for (String i : a) {
             System.out.println(i);
         }
-        
-        // indexOf
-        int index=fruits.indexOf("Mango");
+
+        // Finding the index of "Mango" in the ArrayList
+        int index = fruits.indexOf("Mango");
         System.out.println(index);
-
-        // contains()
-        System.out.println(fruits.contains("apple"));
-
-        // clear()
+        
+        
+        // Using the set method to modify elements
+        fruits.set(0, "orange");
+        fruits.set(1, "Apple");
+        
+        for (String f : fruits) {
+            System.out.println(f);
+        }
+        
+        // Checking if the ArrayList contains "apple"
+        System.out.println(fruits.contains("Apple"));
+        
+        // Clearing the ArrayList (removing all elements)
         fruits.clear();
-
-            System.out.println(fruits);
-
+        System.out.println(fruits);
+        
+        // Checking if the ArrayList is empty
+        System.out.println(fruits.isEmpty());
     }
 }

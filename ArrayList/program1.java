@@ -58,6 +58,8 @@ public class program1 {
         // Clear the ArrayList
         fruits.clear();
         System.out.println("Cleared fruits: " + fruits);
+
+
     }
 }
 
