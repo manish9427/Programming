@@ -1,6 +1,5 @@
 // input --> aaabccddd
 // output -->abd
-package Stack;
 
 import java.util.*;
 public class $2_ReduceString {

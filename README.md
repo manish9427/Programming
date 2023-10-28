@@ -190,6 +190,17 @@ total => 10
 - Selction Sort
 - Bubble Sort
 - Quick Sort
+- Merge Sort
+- Insertion Sort
+
+- Liner Search
+- Binary Search
+
+- Maximum Area
+
+- Maximum Subarray
+
+-
 
 # Complexity
 

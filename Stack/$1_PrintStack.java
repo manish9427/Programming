@@ -1,4 +1,3 @@
-package Stack;
 
 // import java.util.*;
 // public class $1_PrintStack {
