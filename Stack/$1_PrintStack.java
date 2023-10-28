@@ -70,7 +70,7 @@ public class $1_PrintStack {
             st.push(str.charAt(i));
         }
         while(!st.isEmpty()){
-            System.out.print(st.peek()+" ");
+            System.out.print(st.peek()+"");
             st.pop();
         }
     }

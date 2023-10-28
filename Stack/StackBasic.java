@@ -1,5 +1,5 @@
 import java.util.Stack;
-public class Problem {
+public class StackBasic {
     public static void main(String args[]){
         Stack<Integer> st= new Stack<>();
 
