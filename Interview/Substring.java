@@ -1,3 +1,30 @@
+/*
+ Input str="abcd"
+ output
+ a
+ab
+abc
+abcd
+b
+bc
+bcd
+c
+cd
+d
+
+
+with substring method
+TC => O(n^2)
+SC => O(1)
+without substring method
+TC => O(n^3)
+SC => O(1)
+ */
+
+
+
+
+
 public class Substring {
     public static void main(String[] args) {
         String str = "abcd";
