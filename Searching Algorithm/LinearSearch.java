@@ -57,7 +57,7 @@ class LinearSearch{
             if(arr[i]==target){
                 System.out.println(arr[i] +" is at index "+i);
             }else{
-                System.out.println("Not Found "+ arr[i]);
+                System.out.println("Not Found "+ target);
             }break;
         }
     }
