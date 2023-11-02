@@ -39,3 +39,21 @@ public class MaximumArea{
     }
     
 }
+
+
+
+
+/*
+maximum area
+=> compulsory thing
+array  
+
+left = 0;
+right = array.length-1;
+while loop (left < right)
+
+arr[left]
+arr[right]
+left ++
+right ++
+ */
