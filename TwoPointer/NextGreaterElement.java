@@ -30,3 +30,7 @@ public class NextGreaterElement{
 
     }
 }
+
+
+// tc= O(n^2)
+// sc=O(1)
