@@ -42,6 +42,7 @@ public class MaximumSubArray {
             int sum=arr[i]+arr[i+1]+arr[i+2];
             // System.out.println(sum);
             maxSum=Math.max(sum,maxSum);
+            // System.out.println(sum);
         }
         System.out.println(maxSum);
 
