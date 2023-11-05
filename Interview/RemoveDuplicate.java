@@ -5,7 +5,7 @@ public class RemoveDuplicate {
         // 1, 7, 8, 4, 9, 3 --> Output
 
         int[] ans = Solution(arr);
-        // ans = Arrays.copyOf(ans, st.size()); // Trim the array to remove extra zeros
+        Arrays.sort(ans);
         System.out.println(Arrays.toString(ans));
     }
 
