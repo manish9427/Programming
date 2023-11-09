@@ -10,35 +10,37 @@
    as the container formed between the second and ninth bars can hold the most water
    (7 units of height * 7 units of width = 49 square units of area).
  */
-public class MaximumArea{
-    public static void main(String[] args){
-        int[] height={1, 8, 6, 2, 5, 4, 8, 3, 7};
 
-        int maxArea = maxArea(height);
-        System.out.println("Maximum Area: " + maxArea);
-    }
-    public static  int maxArea(int[] height) {
-        int maxArea = 0;
-        int left = 0;
-        int right = height.length - 1;
+
+// public class MaximumArea{
+//     public static void main(String[] args){
+//         int[] height={1, 8, 6, 2, 5, 4, 8, 3, 7};
+
+//         int maxArea = maxArea(height);
+//         System.out.println("Maximum Area: " + maxArea);
+//     }
+//     public static  int maxArea(int[] height) {
+//         int maxArea = 0;
+//         int left = 0;
+//         int right = height.length - 1;
     
-        while (left < right) {
-            int h = Math.min(height[left], height[right]);
-            int w = right - left;
-            int area = h * w;
-            maxArea = Math.max(maxArea, area);
+//         while (left < right) {
+//             int h = Math.min(height[left], height[right]);
+//             int w = right - left;
+//             int area = h * w;
+//             maxArea = Math.max(maxArea, area);
     
-            if (height[left] < height[right]) {
-                left++;
-            } else {
-                right--;
-            }
-        }
+//             if (height[left] < height[right]) {
+//                 left++;
+//             } else {
+//                 right--;
+//             }
+//         }
     
-        return maxArea;
-    }
+//         return maxArea;
+//     }
     
-}
+// }
 
 
 
@@ -57,3 +59,31 @@ arr[right]
 left ++
 right ++
  */
+
+
+ public class MaximumArea{
+    public static void main(String args[]){
+        int[] arr={1,2,3,4,5,6,7};
+
+        // area=height*width => height=min and width 
+
+        int left=0;
+        int right=arr.length-1;
+        int maxArea=0;
+
+        while(left<right){
+            int height=Math.min(arr[left],arr[right]);
+            int width=right-left;
+            int area=width*height;
+            // System.out.println(area);
+            maxArea=Math.max(maxArea,area);
+
+            if(arr[left]<arr[right]){
+                left++;
+            }else{
+                right++;
+            }
+        }
+        System.out.println(maxArea);
+    }
+ }
