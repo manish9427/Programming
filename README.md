@@ -15,6 +15,10 @@
   find whose sum is 7
   output=[4,3],[6,1]
 
+- Spiral Matrix
+
+- longest palindromic Substring
+
 ## Basic Maths
 
 - fizz buzz (easy)
@@ -206,6 +210,7 @@ total => 10
 
 ## Time Complexity
 
+- O(log n) => Binary Search
 - O(n)
 - O(nlog(n))
 - O(n^2)
