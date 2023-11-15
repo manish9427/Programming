@@ -23,32 +23,51 @@ Follow up: Could you do it without any loop/recursion in O(1) runtime?
 
 
 
-public class AddDigits {
+// public class AddDigits {
 
-    public int Solution(int num) {
+//     public int Solution(int num) {
   
-      if(num == 0) {
-        return 0;
-      }
+//       if(num == 0) {
+//         return 0;
+//       }
   
-      if(num % 9 == 0) {
-        return 9; 
-      }
+//       if(num % 9 == 0) {
+//         return 9; 
+//       }
   
-      return num % 9;
+//       return num % 9;
   
+//     }
+  
+//     public static void main(String[] args) {
+  
+//       AddDigits solution = new AddDigits();
+  
+//       int num1 = 38;
+//       int num2 = 0;
+  
+//       System.out.println(solution.Solution(num1)); // Prints 2
+//       System.out.println(solution.Solution(num2)); // Prints 0
+  
+//     }
+  
+//   }
+
+public class AddDigits{
+  public static void main(String args[]){
+    int num=38;
+    if(num<10){
+      System.out.println(num);
     }
-  
-    public static void main(String[] args) {
-  
-      AddDigits solution = new AddDigits();
-  
-      int num1 = 38;
-      int num2 = 0;
-  
-      System.out.println(solution.Solution(num1)); // Prints 2
-      System.out.println(solution.Solution(num2)); // Prints 0
-  
+
+    while(num>=10){
+      int sum=0;
+      while(num>0){
+        sum=sum+num%10;
+        num=num/10;
+      }
+      num=sum;
     }
-  
+    System.out.println(num);
   }
+}
