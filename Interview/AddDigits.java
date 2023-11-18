@@ -55,7 +55,7 @@ Follow up: Could you do it without any loop/recursion in O(1) runtime?
 
 public class AddDigits{
   public static void main(String args[]){
-    int num=38;
+    int num=10;
     if(num<10){
       System.out.println(num);
     }
