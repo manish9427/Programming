@@ -1,3 +1,13 @@
+# Schedule
+
+- Sunday => Interview
+- Monday => Basic + string
+- Tuesday => sorting + searching
+- Wednesday => T.C
+- Thrusday => tp
+- Friday => sw
+- Saturday => stack
+
 # Interview
 
 - fibonacci ----------------------------------------
