@@ -11,23 +11,17 @@
 # Interview
 
 - fibonacci ----------------------------------------
-
 - revers the num -----------------------------
-
 - seach element in rotated sorted array and return the index
-
 - remove duplicate from array and sort them using any inbuilt fuction
-
 - 3[ab]1[a]4[c]
   output=abababacccc
-
 - arr={-1, 5, 6, -3 , 1 , 4 , 3 , 2 , 7 , 1}
   find whose sum is 7
   output=[4,3],[6,1]
-
 - Spiral Matrix
-
 - longest palindromic Substring
+- Rotate Array k=3 from left to right
 
 ## Basic Maths
 
