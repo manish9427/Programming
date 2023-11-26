@@ -10,8 +10,8 @@
 
 # Interview
 
-- fibonacci ----------------------------------------
-- revers the num -----------------------------
+- fibonacci
+- revers the num
 - seach element in rotated sorted array and return the index
 - remove duplicate from array and sort them using any inbuilt fuction
 - 3[ab]1[a]4[c]
@@ -21,6 +21,8 @@
   output=[4,3],[6,1]
 - Spiral Matrix
 - longest palindromic Substring
+- Add Digits
+- Find frequecncy of each element fron am array
 - Rotate Array k=3 from left to right
 
 ## Basic Maths
