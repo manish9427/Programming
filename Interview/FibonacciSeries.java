@@ -3,7 +3,7 @@ class FibonacciSeries{
     public static void main(String args[]){
         int first = 0;
         int second =1;
-        int len=10; // 0 1 1 2 3 --> output
+        int len=5; // 0 1 1 2 3 --> output
 
         int [] output = Solution(first,second,len);
         System.out.println(Arrays.toString(output));
