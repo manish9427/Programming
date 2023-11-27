@@ -28,31 +28,60 @@
 // }
 
 
+// import java.util.*;
+// public class RemoveDuplicate{
+//     public static void main(String args[]){
+//         int[] arr = {1,2,1,3,1,4,2,5,0};
+//         int[] ans = Solution(arr);
+//         // Solution(arr);
+//         Arrays.sort(ans);
+//         System.out.println(Arrays.toString(ans));
+//     }
+
+//     public static int[] Solution(int[] arr){
+//         Stack<Integer> st =new Stack <>();
+
+//         for(int i=0;i<arr.length;i++){
+//             if(!st.contains(arr[i])){
+//                 st.push(arr[i]);
+//             }
+//         }
+
+//         // while(!st.isEmpty()){
+//         //     System.out.println(st.peek());
+//         //     st.pop();
+//         // }
+
+//         int ans[] =new int[st.size()];
+//         for(int i=ans.length-1;i>=0;i--){
+//             ans[i]=st.pop();
+//         }
+//         return ans;
+//     }
+// }
+
 import java.util.*;
-public class RemoveDuplicate{
+class RemoveDuplicate{
     public static void main(String args[]){
-        int[] arr = {1,2,1,3,1,4,2,5,0};
-        int[] ans = Solution(arr);
-        // Solution(arr);
+
+        int [] arr= {1,2,1,2,4,2,8,2,10,6};
+
+        int [] ans=Solution(arr);
         Arrays.sort(ans);
+
         System.out.println(Arrays.toString(ans));
     }
 
-    public static int[] Solution(int[] arr){
-        Stack<Integer> st =new Stack <>();
+    public static int[] Solution(int [] arr){
+        int n=arr.length;
+        Stack<Integer> st =new Stack<>();
+        for(int i=0;i<n;i++){
 
-        for(int i=0;i<arr.length;i++){
-            if(!st.contains(arr[i])){
+            while(!st.contains(arr[i])){
                 st.push(arr[i]);
             }
         }
-
-        // while(!st.isEmpty()){
-        //     System.out.println(st.peek());
-        //     st.pop();
-        // }
-
-        int ans[] =new int[st.size()];
+        int[] ans= new int[st.size()];
         for(int i=ans.length-1;i>=0;i--){
             ans[i]=st.pop();
         }
