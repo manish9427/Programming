@@ -70,6 +70,7 @@
 ## HashMap
 
 - occurence of character in String
+- find the frequency of each element
 
 ## Two Pointers
 
