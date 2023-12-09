@@ -1,13 +1,3 @@
-# Schedule
-
-- Sunday => Interview
-- Monday => Basic + string
-- Tuesday => sorting + searching
-- Wednesday => T.C
-- Thrusday => tp
-- Friday => sw
-- Saturday => stack
-
 # Interview
 
 - fibonacci
@@ -37,6 +27,9 @@
 - happy numbers
 
 ## PATTERN
+
+- right or angle triangle + hollow
+- triangle + hollow
 
 ## STRING
 
@@ -92,12 +85,20 @@
 - reduce string
 - balanced parenthesis
 - Next Greater Element
+- implenement queue using stack
 
 ## Queue
+
+implemnt statck using queue
 
 ## LinkedList
 
 - add one to linked list
+- Traverse a linkedList
+- Reverse a Listeked List
+- Add new element at end
+- add new element at bignning
+- sort the linked list
 
 # Target
 
