@@ -1,11 +1,11 @@
-public class ReverseTheNumber {
+class ReverseTheNumber{
     public static void main(String args[]){
-        int num = 1234; // --> 4321 
+        int n=123;
         int ans=0;
-        while(num>0){
-            int rem = num%10;
+        while(n>0){
+            int rem=n%10;
             ans=ans*10+rem;
-            num=num/10;
+            n=n/10;
         }
         System.out.println(ans);
     }
