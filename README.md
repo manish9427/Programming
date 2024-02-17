@@ -28,7 +28,11 @@
 
 ## PATTERN
 
-- right or angle triangle + hollow
+### star
+
+- right angle
+- right angle + hollow
+- triangle
 - triangle + hollow
 
 ## STRING
