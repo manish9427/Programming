@@ -32,6 +32,7 @@
 
 - right angle
 - right angle + hollow
+- left angle
 - triangle
 - triangle + hollow
 
