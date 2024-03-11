@@ -6,7 +6,14 @@ public class DiamondHollow {
                 System.out.print(" ");
             }
             for(int k=0;k<2*i+1;k++){
-                System.out.print("*");
+                if(k==0||k==i*2){
+
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+
+                }
             }
             System.out.println();
         }
@@ -15,7 +22,14 @@ public class DiamondHollow {
                 System.out.print(" ");
             }
             for(int k=0;k<2*i+1;k++){
-                System.out.print("*");
+                if(k==0||k==i*2){
+
+                    System.out.print("*");
+                }
+                else{
+                    System.out.print(" ");
+
+                }
             }
             System.out.println();
         }
