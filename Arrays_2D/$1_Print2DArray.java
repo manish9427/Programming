@@ -1,5 +1,3 @@
-package Arrays_2D;
-
 import java.util.*;
 public class $1_Print2DArray {
     public static void printArray(int arr[][]){

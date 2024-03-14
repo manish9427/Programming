@@ -1,5 +1,3 @@
-package Arrays_2D;
-
 import java.util.*;
 public class $2_Rotate90Anti {
 
