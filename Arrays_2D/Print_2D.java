@@ -14,7 +14,8 @@ public class Print_2D {
         for(int i=0;i<m;i++){
             for(int j=0;j<n;j++){
                 System.out.print("arr["+i+"]"+"arr["+j+"]: ");
-                arr[i][j]=sc.nextInt();
+
+                    arr[i][j]=sc.nextInt();
             }
         }
 
