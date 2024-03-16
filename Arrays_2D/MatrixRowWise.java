@@ -1,4 +1,4 @@
-public class Matrix{
+public class MatrixRowWise{
     public static void main(String args[]){
         int m=3, n=4;
         int [][] arr = new int [m][n];
