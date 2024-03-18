@@ -1,4 +1,4 @@
-public class MatrixRowWise{
+public class Z_Traversal{
     public static void main(String args[]){
         int m=3, n=4;
         int [][] arr = new int [m][n];
