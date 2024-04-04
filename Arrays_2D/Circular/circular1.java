@@ -1,7 +1,11 @@
+import java.util.Scanner;
 public class circular1 {
     public static void main(String args[]){
-        int m=3;
-        int n=3;
+        Scanner sc=new Scanner (System.in);
+        System.out.print("Enter the Row: ");
+        int m=sc.nextInt();
+        System.out.print("Enter the Col: ");
+        int n=sc.nextInt();
        int[][] arr = new int [m][n];
        int num=1;
        for(int i=0;i<arr.length;i++){
@@ -10,9 +14,7 @@ public class circular1 {
             num++;
         }
        }  
-       int top = 1;
-       int bottom = arr.length;
-
+       System.out.println("Input:- ");
        for(int i=0;i<arr.length;i++){
         for(int j=0;j<arr.length;j++){
             System.out.print(arr[i][j]+" ");
