@@ -1,6 +1,6 @@
 public class ZigZag {
     public static void main(String args[]){
-        int m=3;
+        int m=4;
         int [][] arr =new int[m][m];
         int num=1;
         for(int i=0;i<m;i++){

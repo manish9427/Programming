@@ -3,68 +3,60 @@ import java.util.Scanner;
 public class Spiral {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the Row: ");
-        int m = sc.nextInt();
-        System.out.print("Enter the Col: ");
+
+        System.out.print("Enter the Size of Matrix: ");
         int n = sc.nextInt();
-        int[][] arr = new int[m][n];
-        int num = 1;
         
-        // Filling the array
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                arr[i][j] = num++;
-            }
-        }
-        
-        // Printing the input array
-        System.out.println("Input:- ");
-        for (int i = 0; i < m; i++) {
-            for (int j = 0; j < n; j++) {
-                System.out.print(arr[i][j] + " ");
-            }
-            System.out.println();
+        // Validate input
+        if (n <= 0) {
+            System.out.println("Size of matrix must be a positive integer.");
+            return;
         }
 
         System.out.println("Output:- ");
-        
-        int rows = arr.length;
-        int cols = arr[0].length;
-        int top = 0, bottom = rows - 1, left = 0, right = cols - 1;
 
-        while (top < bottom && left < right) {
-            int prev = arr[top + 1][left];
-            // Move elements of top row one step right
-            for (int i = left; i <= right; i++) {
-                int curr = arr[top][i];
-                arr[top][i] = prev;
-                prev = curr;
-            }
-            top++;
+        int[][] matrix = new int[n][n];
 
-            // Move elements of rightmost column one step downwards
-            for (int i = top; i <= bottom; i++) {
-                int curr = arr[i][right];
-                arr[i][right] = prev;
-                prev = curr;
-            }
-            right--;
+        int num = 1;
+        int rowStart = 0, rowEnd = n - 1;
+        int colStart = 0, colEnd = n - 1;
 
-            // Move elements of bottom row one step left
-            for (int i = right; i >= left; i--) {
-                int curr = arr[bottom][i];
-                arr[bottom][i] = prev;
-                prev = curr;
+        while (rowStart <= rowEnd && colStart <= colEnd) {
+            // Fill the top row
+            for (int i = colStart; i <= colEnd; i++) {
+                matrix[rowStart][i] = num++;
             }
-            bottom--;
+            rowStart++;
 
-            // Move elements of leftmost column one step upwards
-            for (int i = bottom; i >= top; i--) {
-                int curr = arr[i][left];
-                arr[i][left] = prev;
-                prev = curr;
+            // Fill the rightmost column
+            for (int i = rowStart; i <= rowEnd; i++) {
+                matrix[i][colEnd] = num++;
             }
-            left++;
+            colEnd--;
+
+            // Fill the bottom row
+            if (rowStart <= rowEnd) {
+                for (int i = colEnd; i >= colStart; i--) {
+                    matrix[rowEnd][i] = num++;
+                }
+                rowEnd--;
+            }
+
+            // Fill the leftmost column
+            if (colStart <= colEnd) {
+                for (int i = rowEnd; i >= rowStart; i--) {
+                    matrix[i][colStart] = num++;
+                }
+                colStart++;
+            }
+        }
+
+        // Printing the matrix
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
         }
     }
 }
