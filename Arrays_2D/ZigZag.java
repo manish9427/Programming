@@ -1,4 +1,4 @@
-public class ZigZag1 {
+public class ZigZag {
     public static void main(String args[]){
         int m=3;
         int [][] arr =new int[m][m];
