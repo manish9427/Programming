@@ -6,14 +6,13 @@ public class Spiral {
 
         System.out.print("Enter the Size of Matrix: ");
         int n = sc.nextInt();
+        System.out.println("Output:- ");
         
         // Validate input
         if (n <= 0) {
             System.out.println("Size of matrix must be a positive integer.");
-            return;
         }
 
-        System.out.println("Output:- ");
 
         int[][] matrix = new int[n][n];
 
