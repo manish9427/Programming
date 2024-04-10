@@ -22,22 +22,25 @@
 // }
 
 
-
+import java.util.Scanner;
 class PrimeNum{
     public static void main(String args[]){
-        int n=17;
+        Scanner sc=new Scanner(System.in);
+        System.out.print("Enter the number: ");
+        int n=sc.nextInt();
 
         boolean isPrime=true;
-        for(int i=2;i*i<n;i++){
+        for(int i=2;i<=Math.sqrt(n);i++){
+        // for(int i=2;i*i<=n;i++){
             if(n%i==0){
                 isPrime=false;
             }
         }
 
         if(isPrime){
-            System.out.println("Prime");
+            System.out.println(n + " is a Prime Number");
         }else{
-            System.out.println("Not Prime");
+            System.out.println(n + " is not a Prime Number");
         }
     }
 }
