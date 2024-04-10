@@ -41,3 +41,17 @@ class PrimeNum{
         }
     }
 }
+
+/*
+ The condition i * i < n is used in the loop to check if i is less than the square root of n. This is done for optimization purposes.
+
+When i is greater than the square root of n, the loop doesn't need to continue because if n has a divisor, it must be smaller than its square root. If there's no divisor found up to the square root, then n must be a prime number.
+
+Let's dry run the loop with n = 17:
+
+For i = 2, i * i = 4. Since 4 is less than 17, the loop continues.
+For i = 3, i * i = 9. Since 9 is less than 17, the loop continues.
+For i = 4, i * i = 16. Since 16 is less than 17, the loop continues.
+For i = 5, i * i = 25. Now, 25 is not less than 17, so the loop stops.
+This demonstrates that by checking up to the square root, we've covered all possible divisors of 17 without needing to go further.
+ */
