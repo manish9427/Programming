@@ -21,7 +21,6 @@
 //     }
 // }
 
-
 import java.util.Scanner;
 class PrimeNum{
     public static void main(String args[]){
@@ -36,7 +35,6 @@ class PrimeNum{
                 isPrime=false;
             }
         }
-
         if(isPrime){
             System.out.println(n + " is a Prime Number");
         }else{
