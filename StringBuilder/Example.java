@@ -12,5 +12,18 @@ public class Example {
         String result =sb.toString();
         System.out.println(result);
 
+        // insert()
+        sb.insert(6, "Manish ");
+        System.out.println(sb.toString());
+
+        // replace()
+        sb.replace(13,20,"Verma");
+        System.out.println(sb.toString());
+
+        // delete()
+        sb.delete(0, 6);
+
+        System.out.println(sb.toString());
+
     }
 }
