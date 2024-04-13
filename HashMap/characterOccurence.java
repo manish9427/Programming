@@ -1,6 +1,3 @@
-package HashMap;
-
-
 //input --> yoyo
 //output 
 // --> y=2
