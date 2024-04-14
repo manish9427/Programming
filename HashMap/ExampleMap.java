@@ -18,7 +18,37 @@ public class ExampleMap {
         //containsValue --> check value exist or not exist
         System.out.println("contains value 20 ? " + map.containsValue(20));
 
+        // Update  --> this will update the value associate with key
+        map.put("banana",25);
+        System.out.println("updated value of banana: "+ map.get("banana"));
 
+        //remove --> remove the key and value pair
+        map.remove("grapes");
+        System.out.println("After removing Grapes "+map);
+
+        //Iteration
+        System.out.println("Iterating over the HashMap:");
+        for (Map.Entry<String, Integer> entry : map.entrySet()) {
+            System.out.println(entry.getKey() + ": " + entry.getValue());
+        }
+
+        for (String key : map.keySet()) {
+            int value = map.get(key);
+            System.out.println(key + ": " + value);
+        }
+
+        for (int i = 0; i < map.size(); i++) {
+            String key = map.keySet(i);
+            int value = map.get(key);
+            System.out.println(key + ": " + value);
+        }
+
+        //size
+        System.out.println("Size of the HashMap: "+map.size());
+
+        //clear 
+        map.clear();
+        System.out.println("After Clearing the HashMap: "+map);
         
     }
 }
