@@ -31,14 +31,8 @@ public class ExampleMap {
         for (Map.Entry<String, Integer> entry : map.entrySet()) {
             System.out.println(entry.getKey() + ": " + entry.getValue());
         }
-
+// or
         for (String key : map.keySet()) {
-            int value = map.get(key);
-            System.out.println(key + ": " + value);
-        }
-
-        for (int i = 0; i < map.size(); i++) {
-            String key = map.keySet(i);
             int value = map.get(key);
             System.out.println(key + ": " + value);
         }
