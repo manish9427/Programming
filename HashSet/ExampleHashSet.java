@@ -12,5 +12,21 @@ public class ExampleHashSet {
 
         //Access
         System.out.println("HashSet: " + set);
+
+        //check element -- contains
+        System.out.println("Check for element 'Apple' ? : " + set.contains("Apple"));
+
+        // Update  it can`t  be use directly
+
+        if(set.contains("Grapes")){
+            set.remove("Grapes");
+            set.add("Banana");
+        }
+
+        // remove 
+        set.remove("Mango");
+        System.out.println("HashSet: "+ set);
+
+        System.out.println("After Upadate HashSet: "+ set);
     }
 }
