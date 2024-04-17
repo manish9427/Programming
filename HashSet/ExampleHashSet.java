@@ -22,11 +22,23 @@ public class ExampleHashSet {
             set.remove("Grapes");
             set.add("Banana");
         }
+        System.out.println("After Upadate HashSet: "+ set);
 
         // remove 
         set.remove("Mango");
-        System.out.println("HashSet: "+ set);
+        System.out.println("HashSet After Removing: "+ set);
 
-        System.out.println("After Upadate HashSet: "+ set);
+        //Iteration
+        for(String element:set){
+            System.out.println(element);
+        }
+
+        //Size
+        System.out.println("Size og the HashSet: " + set.size());
+
+        //Clear
+        set.clear();
+        System.out.println("HashSet: "+set);
+        
     }
 }
