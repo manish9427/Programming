@@ -1,3 +1,5 @@
+// It does not contains duplicates
+
 import java.util.HashSet;
 import java.util.Set;
 public class ExampleHashSet {
