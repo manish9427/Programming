@@ -48,8 +48,8 @@ public class Rotate {
 
         for(int i=0;i<newArray.length;i++){
             for(int j=0;j<newArray[0].length;j++){
-                // newArray[j][i] =arr[row-1-i][j];
-                newArray[row-1-i][j] =arr[j][i];
+                newArray[j][i] =arr[row-1-i][j];
+                // newArray[row-1-i][j] =arr[j][i];
             }
         }
         System.out.println("Output:- ");
@@ -58,7 +58,7 @@ public class Rotate {
                 System.out.print(newArray[i][j]+" ");
             }
             System.out.println();
-        }    
+        }
     }
 }
 
