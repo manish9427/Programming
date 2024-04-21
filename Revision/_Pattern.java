@@ -7,7 +7,12 @@ public class _Pattern {
                 System.out.print(" ");
             }
             for(int k=0;k<2*i+1;k++){
-                System.out.print("*");
+                // Hollow 
+                if(i==0||i==n-1||k==0||k==2*i){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
