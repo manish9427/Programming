@@ -8,7 +8,7 @@ public class _Pattern {
             }
             for(int k=0;k<2*i+1;k++){
                 // Hollow 
-                if(i==0||i==n-1||k==0||k==2*i){
+                if(i==0||k==0||k==2*i){
                     System.out.print("*");
                 }else{
                     System.out.print(" ");
@@ -18,6 +18,20 @@ public class _Pattern {
         }
 
         //Diamond
+        for(int i=n-2;i>=0;i--){
+            for(int j=0;j<n-i-1;j++){
+                System.out.print(" ");
+            }
+            for(int k=0;k<2*i+1;k++){
+                // Hollow 
+                if(i==0||i==n-1||k==0||k==2*i){
+                    System.out.print("*");
+                }else{
+                    System.out.print(" ");
+                }
+            }
+            System.out.println();
+        }
 
     }    
 }
