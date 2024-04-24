@@ -16,36 +16,70 @@
 //     }
 // }
 
-class BinarySearch{
-    public static void main(String args[]){
-        int [] arr ={1,2,3,4,5,6,7,8,9};
+// class BinarySearch{
+//     public static void main(String args[]){
+//         int [] arr ={1,2,3,4,5,6,7,8,9};
 
-        int target =5;
+//         int target =5;
+
+//         int left = 0;
+//         int right =arr.length-1;
+
+//         int result = -1;
+
+//         while(left<=right){
+//             int mid = left + (right-left)/2;
+
+//             if(arr[mid] == target){
+//                 result =mid;
+//                 break;
+//             }
+
+//             if(arr[mid]<target){
+//                 left=mid+1;
+//             }else{
+//                 right = mid-1;
+//             }
+//         }
+
+//         if(result == -1){
+//             System.out.println("Not Found");
+//         }else{
+//             System.out.println("Target "+target+" : Index "+ result);
+//         }
+//     }
+// }
+
+public class BinarySearch{
+
+    public static void main(String args[]){
+        int [] arr = {1,2,3,4,4,5,6,6,7,7,7,8,9};
+        int target= 7;
 
         int left = 0;
-        int right =arr.length-1;
+        int right = arr.length-1;
 
-        int result = -1;
+        int result=-1;
 
         while(left<=right){
-            int mid = left + (right-left)/2;
+            int mid =left + (right-left)/2;
 
-            if(arr[mid] == target){
-                result =mid;
-                break;
+            if(arr[mid]==target){
+                result = mid;
             }
 
             if(arr[mid]<target){
                 left=mid+1;
             }else{
-                right = mid-1;
+                right=mid-1;
             }
         }
 
-        if(result == -1){
-            System.out.println("Not Found");
+        if(result==-1){
+            System.out.println(target+" Not found");
         }else{
-            System.out.println("Target "+target+" : Index "+ result);
+            System.out.println(target + " : "+ result);
         }
+
     }
-}
+} 
