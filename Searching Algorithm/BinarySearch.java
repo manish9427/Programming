@@ -61,13 +61,28 @@ public class BinarySearch{
         int left = 0;
         int right = arr.length-1;
 
-        int result=-1;
+        boolean found=false;
 
         while(left<=right){
             int mid =left + (right-left)/2;
 
             if(arr[mid]==target){
-                result = mid;
+                found = true;
+                System.out.println(mid);
+
+
+                int tempLeft = mid-1;
+                while(arr[tempLeft]==target && tempLeft>=0 ){
+                    System.out.println(tempLeft);
+                    tempLeft--;
+                }
+
+                int tempRight = mid+1;
+                while(tempRight<arr.length && arr[tempRight]==target){
+                    System.out.println(tempRight);
+                    tempRight++;
+                }
+                break;
             }
 
             if(arr[mid]<target){
@@ -77,11 +92,8 @@ public class BinarySearch{
             }
         }
 
-        if(result==-1){
+        if(!found){
             System.out.println(target+" Not found");
-        }else{
-            System.out.println(target + " : "+ result);
         }
-
     }
 } 
