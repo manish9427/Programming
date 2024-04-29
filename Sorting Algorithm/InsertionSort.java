@@ -39,11 +39,29 @@
 //     }
 //  }
 
+// import java.util.Arrays;
+// class InsertionSort{
+//     public static void main(String args[]){
+//         int[] arr = {5,3,1,2,4};
+//         Arrays.sort(arr);
+//         System.out.println(Arrays.toString(arr));
+//     }
+// }
+
 import java.util.Arrays;
+
 class InsertionSort{
     public static void main(String args[]){
-        int[] arr = {5,3,1,2,4};
-        Arrays.sort(arr);
+        int arr[] = {12,11,13,5,6};
+        for(int i=1;i<arr.length;i++){
+            int j=i-1;
+            int temp=arr[i];
+            while(j>=0 && arr[j]>temp) {
+                arr[j+1]=arr[j];
+                j--;
+            }
+            arr[j+1]=temp;
+        }
         System.out.println(Arrays.toString(arr));
     }
 }
