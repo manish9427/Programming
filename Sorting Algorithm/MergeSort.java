@@ -5,68 +5,115 @@
  */
 
 
-import java.util.*;
-public class MergeSort{
+// import java.util.*;
+// public class MergeSort{
+//     public static void main(String args[]){
+//         int[] arr={-8,4,19,10,-15,20,10};
+//         MergeSortFun(arr);
+//         System.out.println(Arrays.toString(arr));
+//     }
+
+//     public static void MergeSortFun(int arr[]){
+//         int length=arr.length;
+//         if(length<=1) return;
+//         int middle=length/2;
+//         int[] leftArray=new int [ middle];
+//         int[] rightArray=new int [ length-middle];
+
+//         // indices
+
+//         int i=0; // left array
+//         int j=0; // right array
+
+//         for(;i<length;i++){
+//             if(i<middle){
+//                 leftArray[i] = arr[i];
+//             }else{
+//                 rightArray[j] = arr[i];
+//                j++; 
+//             }
+//         }
+//         MergeSortFun(leftArray);
+//         MergeSortFun(rightArray);
+//         Merge(leftArray, rightArray,arr);
+
+//     }
+
+//     public static void Merge(int[] leftArray, int[] rightArray, int[] arr){
+
+//         int leftSize=arr.length/2;
+//         int rightSize=arr.length-leftSize;
+
+//         int i=0,l=0,r=0; // indices
+
+//         while(l<leftSize && r<rightSize){
+//             if(leftArray[l]<rightArray[r]){
+//                 arr[i]=leftArray[l];
+//                 i++;
+//                 l++;
+//             }else{
+//                 arr[i]=rightArray[r];
+//                 i++;
+//                 r++;
+//             }
+//         }
+//         while(l<leftSize){
+//             arr[i]=leftArray[l];
+//             i++;
+//             l++;
+//         }
+
+//         while(r<rightSize){
+//             arr[i]=rightArray[r];
+//             i++;
+//             r++;
+//         }
+//     }
+// }
+
+import java.util.Arrays;
+
+class MergeSort{
     public static void main(String args[]){
-        int[] arr={-8,4,19,10,-15,20,10};
-        MergeSortFun(arr);
+        int arr[] = {3,2,8,7,2,1};
+
+        // Selection Sort
+        // for(int i=0;i<arr.length-1;i++){
+        //     int  min = i;
+        //     for(int j=i+1;j<arr.length;j++){
+        //         if(arr[j]<arr[min]){
+        //             min = j;
+        //         }
+        //     }
+        //     int temp = arr[min];
+        //     arr[min]=arr[i];
+        //     arr[i]=temp;
+        // }
+
+        // Bubble Sort
+        // for(int i=0;i<arr.length;i++){
+        //     for(int j=i+1;j<arr.length;j++){
+        //         if(arr[j]<arr[i]){
+        //             int temp =arr[i];
+        //             arr[i]=arr[j];
+        //             arr[j]=temp;
+        //         }
+        //     }
+        // }
+
+        // Insertion Sort
+        for(int i=1;i<arr.length;i++){
+            int temp =arr[i];
+            int j=i-1;
+
+            while(j>=0 && arr[j]>temp){
+                arr[j+1]=arr[j];
+                j--;
+            }
+            arr[j+1]=temp;
+        }
+
+
         System.out.println(Arrays.toString(arr));
-    }
-
-    public static void MergeSortFun(int arr[]){
-        int length=arr.length;
-        if(length<=1) return;
-        int middle=length/2;
-        int[] leftArray=new int [ middle];
-        int[] rightArray=new int [ length-middle];
-
-        // indices
-
-        int i=0; // left array
-        int j=0; // right array
-
-        for(;i<length;i++){
-            if(i<middle){
-                leftArray[i] = arr[i];
-            }else{
-                rightArray[j] = arr[i];
-               j++; 
-            }
-        }
-        MergeSortFun(leftArray);
-        MergeSortFun(rightArray);
-        Merge(leftArray, rightArray,arr);
-
-    }
-
-    public static void Merge(int[] leftArray, int[] rightArray, int[] arr){
-
-        int leftSize=arr.length/2;
-        int rightSize=arr.length-leftSize;
-
-        int i=0,l=0,r=0; // indices
-
-        while(l<leftSize && r<rightSize){
-            if(leftArray[l]<rightArray[r]){
-                arr[i]=leftArray[l];
-                i++;
-                l++;
-            }else{
-                arr[i]=rightArray[r];
-                i++;
-                r++;
-            }
-        }
-        while(l<leftSize){
-            arr[i]=leftArray[l];
-            i++;
-            l++;
-        }
-
-        while(r<rightSize){
-            arr[i]=rightArray[r];
-            i++;
-            r++;
-        }
     }
 }

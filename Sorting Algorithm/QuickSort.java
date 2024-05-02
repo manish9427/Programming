@@ -7,12 +7,6 @@
  * 
  * Space complexity => O(log(n)) due to recursion
  */
-
-
- /*
-  * 
-  */
-
 import java.util.*;  
 public class QuickSort {
     public static void main(String args[]){
@@ -54,3 +48,13 @@ public class QuickSort {
          return i; //location of the piviotory
     }
 }
+
+/*
+ O(1)
+O(n)
+O(n^2)
+O(logn)
+O(nlogn)
+ */
+
+
