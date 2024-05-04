@@ -76,6 +76,7 @@ import java.util.Arrays;
 class MergeSort{
     public static void main(String args[]){
         int arr[] = {3,2,8,7,2,1};
-        
+        MergeSortfun(arr);
+        System.out.println(Arrays.toString(arr));
     }
 }
