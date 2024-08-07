@@ -1,4 +1,3 @@
-package LinkedList;
 import java.util.*;
 
 //  Node class
