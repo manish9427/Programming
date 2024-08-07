@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 class SinglyLL{
     public static void main(String args[]){
-        LinkedList<> ll = new LinkedList<>();
+        LinkedList<String> ll = new LinkedList<>();
 
         ll.addFirst("my");
 
